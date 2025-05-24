@@ -1,0 +1,117 @@
+:root {
+    --main-color: #007878;
+    --title-card-color: #00a3ff;
+}
+nav .blog-icon1 {
+    margin-left: 400px !important;
+}
+nav .blog-icon1 ul a i {
+    font-size: 25px;
+    padding-right: 10px;
+}
+nav .blog-icon1 form button {
+    background-color: var(--main-color) !important;
+}
+.premierImg img {
+    width: 300px !important;
+}
+.container h1 {
+    color: var(--main-color);
+    margin-bottom: 80px;
+}
+.cardAffiche {
+    background-color: var(--main-color);
+    color: #fff;
+    margin: 100px 0;
+}
+.cardAffiche button {
+    background-color: #fff;
+    color: var(--main-color);
+    border: none;
+    border-radius: 0;
+}
+.cardAffiche button:hover {
+    background-color: #fff;
+    color: var(--main-color);
+}
+.divCard1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-right: 30px;
+}
+.divCard1 h5 {
+    color: var(--main-color);
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.divCard1 p {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.divCard1 a {
+    margin: 25px 0;
+}
+.divCard1 .btn {
+    background-color: var(--main-color);
+    border: none;
+}
+.divCard2 {
+    margin-left: 125px;
+}
+.divCard2 .card {
+    margin-bottom: 50px;
+    border-radius: 0;
+    color: var(--main-color);
+    cursor: pointer;
+}
+.divCard2 .active {
+    background-color: #0078781a;
+}
+.divCard2 .card:hover {
+    background-color: #0078781a;
+}
+footer {
+    padding-top: 175px;
+    padding-bottom: 0;
+    background: linear-gradient(
+        180deg,
+        rgba(30, 150, 150, 1) 50%,
+        rgba(0, 120, 120, 1) 48%
+    );
+}
+footer .preCol {
+    display: flex;
+    justify-content: center;
+}
+footer .input-group {
+    width: 500px !important;
+}
+footer input {
+    padding: 20px !important;
+    border-radius: 36px !important;
+}
+.input-group button {
+    height: 40px !important;
+    position: relative;
+    left: -70px;
+    bottom: -14px;
+    background-color: var(--main-color);
+    color: #fff;
+    margin-bottom: 25px !important;
+}
+footer .lePremier {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+footer .leslien {
+    width: 400px;
+}
+footer .leslien a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
